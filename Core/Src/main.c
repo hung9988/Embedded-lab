@@ -85,8 +85,6 @@ void DisplayLEDs(int mode)
   }
   else if (mode == 4)
   {
-    //    	LED_Value = (LED_Value << 1) | (LED_Value >> 1);
-    //    	if (LED_Value == 0x18){
     LED_Value = LED_Values_spot_bumper[current_index];
     current_index++;
     if (current_index >= 6)
